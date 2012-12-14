@@ -1,0 +1,16 @@
+{
+  "name": "jQuery DOM",
+  "version": "1",
+  "description": "Manipulate the DOM when the page is done loading",
+  "background_page": "background.html",
+  "permissions": [ "http://*/*", "https://*/*", "tabs" ],
+  "browser_action": {
+    "name": "Manipulate DOM",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [ {
+    "js": [ "jquery.min.js", "background.js" ],
+    "matches": [ "http://*/*", "https://*/*"]
+  }]
+}
