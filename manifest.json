@@ -1,11 +1,11 @@
 {
-  "name": "jQuery DOM",
+  "name": "scrape",
   "version": "1",
-  "description": "Manipulate the DOM when the page is done loading",
+  "description": "GUI-based webscraping for the non-programmer",
   "background_page": "background.html",
   "permissions": [ "http://*/*", "https://*/*", "tabs" ],
   "browser_action": {
-    "name": "Manipulate DOM",
+    "name": "scrape",
     "icons": ["icon.png"],
     "default_icon": "icon.png"
   },
